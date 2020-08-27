@@ -60,16 +60,11 @@
 ## EDA
 
 <img src="output_138_0.png">
-<img src="image.png">
 
-<img src="images/k8s-dashboard.png" width=800 /> ![](images/k8s-dashboard.png)
 ### Does location have anything to do with well functionality?
 
-<img src="README/output_141_0.png" /> ![png](README/output_141_0.png)
 
-<img src="README/output_141_0.png" /> ![png](output_141_0.png)
-
-<img src="output_141_0.png" /> ![png](output_141_0.png)
+![png](output_141_0.png)
 
 ![png](output_144_0.png)
 
@@ -160,10 +155,22 @@
 
 #### Water Quantity by Status
 
+![png](output_301_0.png)
+
 #### Quantity & Location
+
+![png](output_303_0.png)
 
 #### Age, Location & Functionality
 
+![png](output_307_0.png)
+
 #### Well Status by Age
 
+![png](output_310_0.png)
+
+![png](output_313_0.png)
+
 #### Extraction Type Class by Functionality
+
+![png](output_315_0.png)
