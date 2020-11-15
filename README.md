@@ -1,4 +1,10 @@
 
+# Project Introduction
+Tanzania is in the midst of a water crisis. 1/3 of the land is an arid desert and there is very limited access to clean water for residents that don’t live near one of the three major lakes on the border of the country. The Tanzanian government and several private companies have built drinking water wells all around the country, however their water pumps don’t work much of the time. Many people resort to drinking contaminated groundwater (found openly), while pollution runs largely unregulated, leaving the possibilty of health problems in the open. The people need our help!
+
+# Goals 
+The goal of this project is to perform a ternary classification of the functionality of water wells in Tanzania. I will use data originally obtained from taarifa, an open-source API, and the Tanzanian Ministry of Water. I will practice and demonstrate the employment of logistic regression, by training and testing multiple supervised ensemble methods of machine learning. The deliverable will be visualizations of the most important features for proper classification using the most accurate model.
+
 ## Importing necessary libraries
 
 ## Obtain Data
