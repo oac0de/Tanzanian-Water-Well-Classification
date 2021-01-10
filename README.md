@@ -7,35 +7,35 @@ Tanzania is in the midst of a water crisis. 1/3 of the land is an arid desert an
 The goal of this project is to perform a ternary classification of the functionality of water wells in Tanzania. I will use data originally obtained from taarifa, an open-source API, and the Tanzanian Ministry of Water. I will practice and demonstrate the employment of logistic regression, by training and testing multiple supervised ensemble methods of machine learning. The deliverable will be visualizations of the most important features for proper classification using the most accurate model.
 
 ## Necessary libraries for this project
-• Pandas
-• NumPy
-• Matplotlib
-• Seaborn
-• SciPy
-• sklearn
-• XGBoost 
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SciPy
+* sklearn
+* XGBoost 
 
 # Methods
 Process based on the OSEMN framework
-• Importing data obtained from host, DrivenData.org
-• Extensive cleaning:
-    • Dropping entirely redundant columns where values are near duplicates of other columns (e.g.'subvillage', 'funder', 'quality       group' columns)
-    • Dealing with missing values:
-        • Dropping rows when NaN ratio is very low 
-        • Imputing high NaN ratio with 'unknown' to avoid offsetting distribution of data ('funder' column)
-        • Imputing low-mid NaN ratios with existing ratios of non-null values ('permit' column)
-    • Dealing with placeholder values:
-        • Dropping 'longitude' rows with '0' and '-2.000000e-08' (3% of all values)
-        • Dropping others entire rows with extremely high percentage of placeholders ('num-private' column)
-• Exploratory Data Analysis, potential relationships between variables/columns and functionality labels
-• One-Hot-Encoding categorical variables
-• Modeling and tuning for highest accuracy, and highest precision of non-functional well identification with the following                 models:
-        • KNNclassifier (K Nearest Neighbors)
-        • Decision tree
-        • Random Forest
-        • XGBoost
-• Plotting feature importance of best performing model (Random Forest)
-• Visualizing most important features
+* Importing data obtained from host, DrivenData.org
+* Extensive cleaning:
+    * Dropping entirely redundant columns where values are near duplicates of other columns (e.g.'subvillage', 'funder', 'quality       group' columns)
+    * Dealing with missing values:
+        * Dropping rows when NaN ratio is very low 
+        * Imputing high NaN ratio with 'unknown' to avoid offsetting distribution of data ('funder' column)
+        * Imputing low-mid NaN ratios with existing ratios of non-null values ('permit' column)
+    * Dealing with placeholder values:
+        * Dropping 'longitude' rows with '0' and '-2.000000e-08' (3% of all values)
+        * Dropping others entire rows with extremely high percentage of placeholders ('num-private' column)
+* Exploratory Data Analysis, potential relationships between variables/columns and functionality labels
+* One-Hot-Encoding categorical variables
+* Modeling and tuning for highest accuracy, and highest precision of non-functional well identification with the following                 models:
+        * KNNclassifier (K Nearest Neighbors)
+        * Decision tree
+        * Random Forest
+        * XGBoost
+* Plotting feature importance of best performing model (Random Forest)
+* Visualizing most important features
 
 ## The Data
 <img src='~/../Images/dfhead.png'>
