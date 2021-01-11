@@ -80,13 +80,13 @@ Nearly half of submersible water-wells don't work. Handpump wells and gravity we
 
 ## Best Classification Model: Random Forest
 
-<img src='~/../Images/bestmodel report'>
+<img src='~/../Images/bestmodel_report.png'>
 
 Our best accuracy and false negative ratio utilized a random forest model. Precision for functional needs repair went from 50% at the baseline to 59% after fine-tuning. Our recall went up to 90% for functional, bumping the f1-score up 1%. The f1-score for non-functional also went up 1%, thus bumping our accuracy up 1%. Most importantly precision for non-functional well classification at 83%. Final model accuracy at 80.9%. 
 
 ### Confusion Matrix for Test Set 
 
-<img src='~/../Images/confusion_matrix_testset'>
+<img src='~/../Images/confusion_matrix_testset.png'>
 
 Deciphering the confusion matrix on the unseen test data: 7050 wells were correctly predicted as functional (Upper Right corner). 532 were falsely predicted as functional, when they were actually needing repair. 1151 were falsely predicted as functional when they were not functional (false positives - important in our case).
 
@@ -94,7 +94,7 @@ Deciphering the confusion matrix on the unseen test data: 7050 wells were correc
 
 An extremely important part of any machine learning classification project shows the features which are most important to the particular model in determining the classification outcome. 
 
-<img src='~/../Images/most_important_features'>
+<img src='~/../Images/most_important_features.png'>
 
 The following features in our model are most determinant of well functionality label:
 * latitude and longitude 
