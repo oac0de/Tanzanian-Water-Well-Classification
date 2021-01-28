@@ -1,4 +1,4 @@
-Blog Article Published by Analytics Vidya, Medium : [Predicting Functionality of Water Well Pumps in Tanzania](https://medium.com/analytics-vidhya/predicting-functionality-of-water-well-pumps-in-tanzania-using-random-forest-6c25844a517e)
+Blog Article Published by Analytics Vidhya, Medium : [Predicting Functionality of Water Well Pumps in Tanzania](https://medium.com/analytics-vidhya/predicting-functionality-of-water-well-pumps-in-tanzania-using-random-forest-6c25844a517e)
 
 # Project Introduction
 Tanzania is in the midst of a water crisis. 1/3 of the land is an arid desert and there is very limited access to clean water for residents that don’t live near one of the three major lakes on the border of the country. The Tanzanian government and several private companies have built drinking water wells all around the country, however their water pumps don’t work much of the time. Many people resort to drinking contaminated groundwater (found openly), while pollution runs largely unregulated, leaving the possibility of health problems in the open. The people need our help!
