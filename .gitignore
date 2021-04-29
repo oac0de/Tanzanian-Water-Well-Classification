@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+#DS Store
+.DS_Store
+
+#jovian
+.jovianrc
+
 # Distribution / packaging
 .Python
 build/
